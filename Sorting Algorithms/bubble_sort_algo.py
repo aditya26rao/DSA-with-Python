@@ -1,8 +1,9 @@
 '''
 ✔️ Compares adjacent elements
 ✔️ Largest element bubbles to the end each pass
-✔️ Time Complexity: O(n²)
+✔️ Time Complexity: Best O(n), Worst O(n²), Average O(n²)
 ✔️ Space Complexity: O(1) (in-place sort)
+
 '''
 
 def bubble_sort(arr):
