@@ -12,11 +12,16 @@ def bubble_sort(arr):
     for i in range(n):
         # Inner loop for comparing adjacent elements
         # n - i - 1 because the last i elements are already sorted
+        swapped = False
         for j in range(n - i - 1):
             # If current element is greater than the next element
             # then swap them
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swapped = True
+                
+        if not swapped:
+            break # No swaps means array is already sorted
 
     # Return the sorted array
     return arr
