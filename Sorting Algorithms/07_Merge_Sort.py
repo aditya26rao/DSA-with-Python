@@ -1,14 +1,14 @@
 
-    # -------------------------------
-    # Time Complexity (TC):
-    # Best Case: O(n log n)
-    # Worst Case: O(n log n)
-    # Average Case: O(n log n)
-    #
-    # Space Complexity (SC):
-    # O(n) for temporary arrays during merging
-    # O(log n) recursion stack depth
-    # -------------------------------
+# -------------------------------
+# Time Complexity (TC):
+# Best Case: O(n log n)
+# Worst Case: O(n log n)
+# Average Case: O(n log n)
+#
+# Space Complexity (SC):
+# O(n) for temporary arrays during merging
+# O(log n) recursion stack depth
+# -------------------------------
     
 # Method 1 :- From Strvier Sheet Logic
 # def merge(arr, low, mid, high): 
@@ -61,7 +61,6 @@
 # print('----------------------------------------------------------')
 
 # Method 2:- From Code and Debug
-
 # Function to merge two sorted arrays into one sorted array
 def merge_array(left, right):
     result = []   # temporary list to store merged result
