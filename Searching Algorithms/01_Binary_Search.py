@@ -25,7 +25,7 @@ j = len(arr) - 1
 result = binarySearch(arr, i, j, x)
 print("Searching element is present at the index", result)
 
-'''
+''' 
 Time complexity :- O(logn)
 Space complexity :- O(1) as we only used "mid" variable
 T(n) = T(n/2) + c, which is equal to O(logn) as per Master's Theorem
