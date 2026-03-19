@@ -34,3 +34,9 @@ def quickSort(arr, low, high):
 arr = [4, 1, 7, 9, 3]
 quickSort(arr, 0, len(arr) - 1)
 print(arr)  # Output: [1, 3, 4, 7, 9]
+
+
+'''
+Worst Case :- TC O(n^2), SC O(1)
+Best and Avg Case :- TC O(n logn), SC O(1)
+'''
