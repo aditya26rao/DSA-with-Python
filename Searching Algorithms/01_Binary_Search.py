@@ -1,7 +1,7 @@
 # Implementation of Binary Search
 def binarySearch(arr, i, j, x):
     while i <= j:
-        mid = i + (j - 1) // 2
+        mid = i + (j - i) // 2
         if arr[mid] == x:
             return mid
         elif arr[mid] < x:

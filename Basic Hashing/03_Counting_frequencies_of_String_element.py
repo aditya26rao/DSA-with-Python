@@ -8,7 +8,7 @@ def countFrequency(s, queries):
     # Space Complexity (SC): O(1)
     #   -> Fixed-size hashList of 26 for lowercase letters
     #   -> Independent of input size, constant space
-    #
+    #   -> and SC is O(m) for hashDict
     # This is the optimal solution because the alphabet size is constant (26).
     # --------------------------------------
 
