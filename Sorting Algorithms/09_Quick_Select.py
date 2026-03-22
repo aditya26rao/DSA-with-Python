@@ -23,9 +23,11 @@ def quickSelect(arr, low, high, k):
         if pivotIndex == target:
             return arr[pivotIndex]
         elif pivotIndex > target:
-            high = pivotIndex - 1
+            #high = pivotIndex - 1
+            return quickSelect(arr, low, pivotIndex - 1, k)
         else:
-            low = pivotIndex + 1
+            #low = pivotIndex + 1
+            return quickSelect(arr, pivotIndex + 1, high, k)
 
 
 arr = [4, 1, 7, 9, 3]

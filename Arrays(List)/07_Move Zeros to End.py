@@ -49,9 +49,9 @@ def moveZeroes(nums):
     # for i in range(len(temp)):
     #     nums[i] = temp[i]
     
-    # no_zeros = len(temp)
+    # non_zeros = len(temp)
     
-    # for i in range(no_zeros,len(nums)):
+    # for i in range(non_zeros,len(nums)):
     #     nums[i] = 0
         
     # return nums

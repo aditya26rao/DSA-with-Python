@@ -31,7 +31,7 @@ def intersection_of_two_array(nums1, nums2):
 #   We traverse both arrays once using two pointers.
 #
 # Space Complexity: O(1)
-#   No extra space is used except the result array.
+# No extra space is used except the result array. so for resulten array SC O(min(n,m)) => O(n)
 
     # List to store intersection elements
     result = []
