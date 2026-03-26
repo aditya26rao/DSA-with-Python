@@ -39,8 +39,6 @@ def maxSubArray(nums):
         if sum < 0:
             sum = 0
         
-        if maxi < 0:
-            return 0
             
     return maxi
         
